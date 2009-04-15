@@ -14,7 +14,7 @@ Neccessary for wordpress 2.7+, or you will be rated low for duplicate content.
 
 ####History
 
-0.1 - First release 
+0.1 - First release    
 1.0 - Multilanguagal version with customizable text.    
 
 ####Localization
