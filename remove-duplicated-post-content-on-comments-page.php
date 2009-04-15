@@ -3,13 +3,12 @@
 Plugin Name: Remove duplicated post content on comments page
 Plugin URI: http://jehy.ru/articles/2009/04/14/wordpress-plugins-login-redirect-remove-duplicated-post-content-on-comments-page/
 Description: Remove content duplicating on comments pages
-Version: 0.1
+Version: 1.0
 Author: Jehy
 Author URI: http://jehy.ru/index.en.html
 */
 
-
-/*  
+/*
 	Copyright 2008  jehy
 
     This program is free software; you can redistribute it and/or modify
@@ -28,13 +27,30 @@ Author URI: http://jehy.ru/index.en.html
 */
 
 
+class remove_duplicated_post_content
+{public $post_replace_text;
 
-add_filter('the_content','comment_page_filter',999);
-
-function comment_page_filter($text)
-{global $post;
-if(strpos($_SERVER['REQUEST_URI'],'/comment-page-'))
-	return '<br><a href="'.get_permalink($post->ID).'">'.__('Click here to read post content instead of comments page').'</a><br><br>';
-return $text;
+public function GetReplaceText()
+{  if(!$this->post_replace_text)
+  {
+    $text=get_option('remove_duplicated_post_content_text');
+    if(!$text)
+      $text=REM_DUPL_CONT_DEFAULT_REPLACE;
+    $this->post_replace_text=$text;
+    return $text;
+  }
+  return $this->post_replace_text;}
+public function init_lang()
+{
+  if(file_exists(ABSPATH . 'wp-content/plugins/remove-duplicated-post-content-on-comments-page/lang/lang.'.WPLANG.'.inc'))
+    $lang='.'.WPLANG;
+    include_once('lang/lang'.$lang.'.inc');
 }
+}
+
+if(is_admin())
+  include_once('remove-duplicated-post-content-options.php');
+else
+	include_once('remove-duplicated-post-content-parser.php');
+
 ?>
