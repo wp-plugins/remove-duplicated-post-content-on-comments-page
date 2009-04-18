@@ -3,7 +3,7 @@
 Plugin Name: Remove duplicated post content on comments page
 Plugin URI: http://jehy.ru/articles/2009/04/14/wordpress-plugins-login-redirect-remove-duplicated-post-content-on-comments-page/
 Description: Remove content duplicating on comments pages
-Version: 1.1
+Version: 1.2
 Author: Jehy
 Author URI: http://jehy.ru/index.en.html
 */
@@ -44,7 +44,7 @@ function init_lang()
 {
   if(file_exists(ABSPATH . 'wp-content/plugins/remove-duplicated-post-content-on-comments-page/lang/lang.'.WPLANG.'.inc'))
     $lang='.'.WPLANG;
-    include_once('lang/lang'.$lang.'.inc');
+    include_once(ABSPATH . 'wp-content/plugins/remove-duplicated-post-content-on-comments-page/lang/lang'.$lang.'.inc');
 }
 }
 
