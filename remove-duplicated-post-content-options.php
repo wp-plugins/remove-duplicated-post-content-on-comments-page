@@ -3,23 +3,23 @@
 new remove_duplicated_post_content_options();
 class remove_duplicated_post_content_options extends remove_duplicated_post_content
 {
-public function remove_duplicated_post_content_options()
+function remove_duplicated_post_content_options()
 {
   register_activation_hook(__FILE__,array($this,'Activate'));
   register_deactivation_hook(__FILE__,array($this,'DeActivate'));
   add_action('admin_menu', array($this,'modify_menu'));
   $this->init_lang();}
 
-public function Activate()
+function Activate()
 {}
 
-public function DeActivate()
+function DeActivate()
 {
   delete_option('remove_duplicated_post_content_text');
 }
 
 
-public function admin_options()
+function admin_options()
 {
 global $_REQUEST;
   echo '<div class="wrap"><h2>Remove duplicated post content</h2>';
@@ -29,14 +29,14 @@ global $_REQUEST;
   echo '</div>';
 }
 
-public function update_options()
+function update_options()
 {
   global $_REQUEST;
   if(isset($_REQUEST['remove_duplicated_post_content_text']))
     update_option('remove_duplicated_post_content_text',$_REQUEST['remove_duplicated_post_content_text']);
 }
 
-public function modify_menu()
+function modify_menu()
 {
   add_options_page(
     'Remove duplicated post content',
