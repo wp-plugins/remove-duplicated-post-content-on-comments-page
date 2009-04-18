@@ -49,8 +49,8 @@ function init_lang()
 }
 
 if(is_admin())
-  include_once('remove-duplicated-post-content-options.php');
+  include_once(ABSPATH . 'wp-content/plugins/remove-duplicated-post-content-on-comments-page/remove-duplicated-post-content-options.php');
 else
-	include_once('remove-duplicated-post-content-parser.php');
+	include_once(ABSPATH . 'wp-content/plugins/remove-duplicated-post-content-on-comments-page/remove-duplicated-post-content-parser.php');
 
 ?>
