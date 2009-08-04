@@ -2,7 +2,7 @@
 Author: Jehy
 Tags: seo, link, links, publisher, post, posts, comments
 Requires at least: 2.6
-Tested up to: 2.8.2
+Tested up to: 2.8.3
 Stable tag: 1.2
 Plugin replaces post content with just a link on comments pages.
 Neccessary for wordpress 2.7+, or you will be rated low for duplicate content. 
