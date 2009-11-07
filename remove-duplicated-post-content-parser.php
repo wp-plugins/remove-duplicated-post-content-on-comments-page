@@ -1,6 +1,5 @@
 <?php
 
-new remove_duplicated_post_content_parser();
 class remove_duplicated_post_content_parser extends remove_duplicated_post_content
 {function remove_duplicated_post_content_parser()
 {
@@ -19,4 +18,5 @@ function comment_page_filter($text)
 }
 }
 
+new remove_duplicated_post_content_parser();
 ?>
