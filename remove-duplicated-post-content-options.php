@@ -1,6 +1,5 @@
 <?php
 
-new remove_duplicated_post_content_options();
 class remove_duplicated_post_content_options extends remove_duplicated_post_content
 {
 function remove_duplicated_post_content_options()
@@ -69,4 +68,5 @@ global $_REQUEST;
 }
 
 
+new remove_duplicated_post_content_options();
 ?>
