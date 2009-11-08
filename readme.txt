@@ -17,8 +17,8 @@ Neccessary for wordpress 2.7+, or you will be rated low for duplicate content.
 0.1 - First release    
 1.0 - Multilanguagal version with customizable text.    
 1.1 - Updated for compatibility with PHP4.    
-1.2 - Fixed language inclusion problem which sometimes apperared.
-1.3 - Compatibility fixes    
+1.2 - Fixed language inclusion problem which sometimes apperared.    
+1.3 - Fixed compatibility fixes    
 
 ####Localization
 
