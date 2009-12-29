@@ -5,7 +5,7 @@ Plugin URI: http://jehy.ru/articles/2009/04/14/wordpress-plugins-login-redirect-
 Description: Remove content duplicating on comments pages
 Version: 1.3
 Min WP Version: 2.6
-Max WP Version: 2.8.5
+Max WP Version: 2.9.0
 Author: Jehy
 Author URI: http://jehy.ru/index.en.html
 */
