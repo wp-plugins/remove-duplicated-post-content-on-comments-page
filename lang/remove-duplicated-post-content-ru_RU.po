@@ -1,0 +1,54 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Remove duplicated post content on comments page\n"
+"POT-Creation-Date: 2014-02-05 17:15+0400\n"
+"PO-Revision-Date: 2014-02-05 17:15+0400\n"
+"Last-Translator: Jehy <fate@jehy.ru>\n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../remove-duplicated-post-content-on-comments-page.php:47
+msgid ""
+"You are watching comments page. If you want to see the whole post text, "
+"please, go LINK_BEGIN here LINK_END."
+msgstr ""
+"Вы просматриваете страницу комментариев. Если вы хотите просмореть сам текст "
+"поста, пожалуйста, перейдите LINK_BEGIN сюда LINK_END."
+
+#: ../remove-duplicated-post-content-options.php:25
+#: ../remove-duplicated-post-content-options.php:41
+#: ../remove-duplicated-post-content-options.php:42
+#: ../remove-duplicated-post-content-options.php:56
+msgid "Remove duplicated post content"
+msgstr "Убрать дублирование текста поста"
+
+#: ../remove-duplicated-post-content-options.php:57
+msgid "Plugin Homepage"
+msgstr "Страница плагина"
+
+#: ../remove-duplicated-post-content-options.php:58
+msgid "Feedback"
+msgstr "Обратная связь"
+
+#: ../remove-duplicated-post-content-options.php:60
+msgid ""
+"Customize text which you want to show on comments page instead of post text. "
+"Use \"LINK_BEGIN\" and \"LINK_END\" to define the beginning and the end of "
+"link to original post text."
+msgstr ""
+"Укажите текст, который вы хотите видеть на странице комментариев вместо "
+"текста поста. Используйте \"LINK_BEGIN\" и \"LINK_END\", чтобы указать "
+"начало и конец ссылки на текст поста."
+
+#: ../remove-duplicated-post-content-options.php:62
+msgid "Save Changes"
+msgstr "Сохранить изменения"
