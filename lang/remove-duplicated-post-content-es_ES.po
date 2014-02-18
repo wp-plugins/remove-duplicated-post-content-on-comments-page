@@ -1,0 +1,55 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Remove duplicated post content on comments page\n"
+"POT-Creation-Date: 2014-02-05 17:15+0400\n"
+"PO-Revision-Date: 2014-02-18 12:54+0400\n"
+"Last-Translator: Jehy <fate@jehy.ru>\n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.3\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../remove-duplicated-post-content-on-comments-page.php:47
+msgid ""
+"You are watching comments page. If you want to see the whole post text, "
+"please, go LINK_BEGIN here LINK_END."
+msgstr ""
+"Usted está viendo la página de comentarios. Si desea ver todo el texto de la "
+"publicación, por favor diríjase a LINK_BEGIN aquí LINK_END."
+
+#: ../remove-duplicated-post-content-options.php:25
+#: ../remove-duplicated-post-content-options.php:41
+#: ../remove-duplicated-post-content-options.php:42
+#: ../remove-duplicated-post-content-options.php:56
+msgid "Remove duplicated post content"
+msgstr "Eliminar contenido de publicaciones duplicado"
+
+#: ../remove-duplicated-post-content-options.php:57
+msgid "Plugin Homepage"
+msgstr "Página de Inicio del Plugin"
+
+#: ../remove-duplicated-post-content-options.php:58
+msgid "Feedback"
+msgstr "Retroalimentación"
+
+#: ../remove-duplicated-post-content-options.php:60
+msgid ""
+"Customize text which you want to show on comments page instead of post text. "
+"Use \"LINK_BEGIN\" and \"LINK_END\" to define the beginning and the end of "
+"link to original post text."
+msgstr ""
+"Personalice el texto que desea mostrar en la página de comentarios en lugar "
+"del texto de la publicación. Utilice \"LINK_BEGIN\" y \"LINK_END\" para "
+"definir el principio y el final del enlace original al texto de la "
+"publicación."
+
+#: ../remove-duplicated-post-content-options.php:62
+msgid "Save Changes"
+msgstr "Guardar cambios"
